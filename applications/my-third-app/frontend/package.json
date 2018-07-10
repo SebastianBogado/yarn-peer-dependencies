@@ -1,0 +1,17 @@
+{
+  "name": "my-third-app-frontend",
+  "version": "0.0.1",
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.6.0"
+  },
+  "workspaces": {
+    "nohoist": [
+      "react-redux"
+    ]
+  },
+  "private": true
+}
+
