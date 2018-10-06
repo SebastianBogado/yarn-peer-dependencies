@@ -17,12 +17,13 @@
   "author": "Sebastian Bogado",
   "license": "ISC",
   "devDependencies": {
-    "lerna": "^2.4.0"
+    "lerna": "3.4.0"
   },
   "workspaces": {
     "packages": [
-      "common/*",
-      "applications/*/*"
+      "applications/**",
+      "common/*"
+      
     ]
   },
   "private": true
